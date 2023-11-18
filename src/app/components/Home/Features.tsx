@@ -10,7 +10,7 @@ export default function Features() {
 
       <div className='flex flex-wrap justify-around mt-20 gap-7'>
         <div className='max- w-[270px]'>
-          <div className='flex gap-4 items-center mb-4'>
+          <div className='flex flex-col sm:flex-row gap-4 items-center mb-4'>
             <Image
                 src='images/soul.svg'
                 // className="absolute bottom-10 left-24"
@@ -18,13 +18,13 @@ export default function Features() {
                 width={50}
                 height={50}
             />
-            <p className='text-[#0FC1D9] text-xl font-bold'>Soulbound NFTs</p>
+            <p className='text-[#0FC1D9] text-xl font-bold text-center '>Soulbound NFTs</p>
           </div>
-          <p className='text-[#CED8DD] leading-8'>Introduce soulbound NFT event tickets for secure, non-transferable access.</p>
+          <p className='text-[#CED8DD] leading-8 text-center sm:text-left'>Introduce soulbound NFT event tickets for secure, non-transferable access.</p>
         </div>
 
         <div className='max- w-[270px]'>
-          <div className='flex gap-4 items-center mb-4'>
+          <div className='flex flex-col sm:flex-row gap-4 items-center mb-4'>
             <Image
                 src='images/refund.svg'
                 // className="absolute bottom-10 left-24"
@@ -32,13 +32,13 @@ export default function Features() {
                 width={50}
                 height={50}
             />
-            <p className='text-[#0FC1D9] text-xl font-bold'>REFUNDABLE</p>
+            <p className='text-[#0FC1D9] text-xl font-bold text-center'>REFUNDABLE</p>
           </div>
-          <p className='text-[#CED8DD] leading-8'>Grants users a 48-hour window for ticket refunds before events, and the ability to transfer tickets to another adress.</p>
+          <p className='text-[#CED8DD] text-center sm:text-left leading-8'>Grants users a 48-hour window for ticket refunds before events, and the ability to transfer tickets to another adress.</p>
         </div>
 
         <div className='max- w-[270px]'>
-          <div className='flex gap-4 items-center mb-4'>
+          <div className='flex flex-col sm:flex-row gap-4 items-center mb-4'>
             <Image
                 src='images/secure.svg'
                 // className="absolute bottom-10 left-24"
@@ -46,15 +46,15 @@ export default function Features() {
                 width={50}
                 height={50}
             />
-            <p className='text-[#0FC1D9] text-xl font-bold'>SECURE CRYPTO
+            <p className='text-[#0FC1D9] text-xl font-bold text-center'>SECURE CRYPTO
 PAYMENTS </p>
           </div>
-          <p className='text-[#CED8DD] leading-8'>Implements a secure payment gateway using cryptocurrencies for users to seamlessly purchase tickets.</p>
+          <p className='text-[#CED8DD] text-center sm:text-left leading-8'>Implements a secure payment gateway using cryptocurrencies for users to seamlessly purchase tickets.</p>
         </div>
 
 
         <div className='max- w-[270px]'>
-          <div className='flex gap-4 items-center mb-4'>
+          <div className='flex flex-col sm:flex-row gap-4 items-center mb-4'>
             <Image
                 src='images/uoto.svg'
                 // className="absolute bottom-10 left-24"
@@ -62,14 +62,14 @@ PAYMENTS </p>
                 width={50}
                 height={50}
             />
-            <p className='text-[#0FC1D9] text-xl font-bold'>Up to date info</p>
+            <p className='text-[#0FC1D9] text-xl font-bold text-center'>Up to date info</p>
           </div>
-          <p className='text-[#CED8DD] leading-8'>Present comprehensive information about specific events, including date, time, Location and available tickets.</p>
+          <p className='text-[#CED8DD] text-center sm:text-left leading-8'>Present comprehensive information about specific events, including date, time, Location and available tickets.</p>
         </div>
 
 
         <div className='max- w-[270px]'>
-          <div className='flex gap-4 items-center mb-4'>
+          <div className='flex flex-col sm:flex-row gap-4 items-center mb-4'>
             <Image
                 src='images/safe.svg'
                 // className="absolute bottom-10 left-24"
@@ -77,13 +77,13 @@ PAYMENTS </p>
                 width={50}
                 height={50}
             />
-            <p className='text-[#0FC1D9] text-xl font-bold'>SAFE AND SECURE </p>
+            <p className='text-[#0FC1D9] text-xl font-bold text-center'>SAFE AND SECURE </p>
           </div>
-          <p className='text-[#CED8DD] leading-8'>Implements a secure payment gateway using cryptocurrencies for users to seamlessly purchase tickets.</p>
+          <p className='text-[#CED8DD] text-center sm:text-left leading-8'>Implements a secure payment gateway using cryptocurrencies for users to seamlessly purchase tickets.</p>
         </div>
 
       <div className='max- w-[270px]'>
-          <div className='flex gap-4 items-center mb-4'>
+          <div className='flex flex-col sm:flex-row gap-4 items-center mb-4'>
             <Image
                 src='images/event.svg'
                 // className="absolute bottom-10 left-24"
@@ -91,9 +91,9 @@ PAYMENTS </p>
                 width={50}
                 height={50}
             />
-            <p className='text-[#0FC1D9] text-xl font-bold'>Event Creation</p>
+            <p className='text-[#0FC1D9] text-xl font-bold text-center'>Event Creation</p>
           </div>
-          <p className='text-[#CED8DD] leading-8'>Allows events organizers to input event data manually through a user friendly interface. offering flexibility of event organazing.</p>
+          <p className='text-[#CED8DD] text-center sm:text-left leading-8'>Allows events organizers to input event data manually through a user friendly interface. offering flexibility of event organazing.</p>
       </div>
       {/* </div> */}
       </div>
