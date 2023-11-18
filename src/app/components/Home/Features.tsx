@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function Features() {
   return (
-    <div className=' w-[95%] mx-auto max-w-[1200px]'>
+    <div className=' w-[95%] py-14 mx-auto max-w-[1200px]'>
       <p className='text-2xl font-semibold text-[#0FC1D9] text-center'>Features</p>
       <p className='text-3xl font-semibold text-[#F4F6F6] text-center my-6 mx-auto w-[95%] sm:w-[90%] md:w-[580px]'>Say goodbye to high fees, hidden costs, and centralized control</p>
       <p className='text-center text-[#BCB7B7] font-semibold text-[18px] mx-auto w-[95%] sm:w-[90%] md:w-[640px]'>Our system is built on blockchain technology, which makes it secure, transparent, and tamper-proof.</p>
